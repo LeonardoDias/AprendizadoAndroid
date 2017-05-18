@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TesteAprendizado</string>
+    <string name="hint_name">Name</string>
+    <string-array name="classes_array">
+        <item>Mage</item>
+        <item>Warrior</item>
+    </string-array>
 </resources>
