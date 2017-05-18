@@ -18,7 +18,11 @@
         <activity
             android:name=".IntentStartActivity.CharacterActivity"
             android:parentActivityName=".IntentStartActivity.MainActivity" />
-        <activity android:name="br.diasapp.apublic.testaprendizado.Fragment.FragmentActivity"></activity>
+        <activity android:name="br.diasapp.apublic.testaprendizado.Fragment.FragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -6,4 +6,7 @@
         <item>Warrior</item>
     </string-array>
     <string name="fragment_text">This is a fragment text</string>
+    <string name="activity_text">This is a activity text</string>
+    <string name="update_fragment_text_from_fragment">Tap here to update fragment text from fragment</string>
+    <string name="update_fragment_text_from_activity">Tap here to update fragment text from activity</string>
 </resources>

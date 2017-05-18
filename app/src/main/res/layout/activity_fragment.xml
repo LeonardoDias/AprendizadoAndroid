@@ -10,4 +10,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.diasapp.apublic.testaprendizado.Fragment.FragmentActivity">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Text for update"
+        android:ems="10"
+        android:id="@+id/editTextFragment" />
+
+    <!--
+        para incorporar um fragment utilizamos a tag <fragment> informando a classe utilizada
+        tools:layout serve apensar para informar o layout na view, o layout é definido na classe Fragment
+    -->
+    <Button
+        android:text="@string/update_fragment_text_from_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@id/editTextFragment"
+        android:onClick="updateFragmentText"/>
+
+    <fragment android:name="br.diasapp.apublic.testaprendizado.Fragment.Fragment"
+        android:id="@+id/fragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/button"
+        tools:layout="@layout/fragment" />
+
 </RelativeLayout>
