@@ -5,4 +5,5 @@
         <item>Mage</item>
         <item>Warrior</item>
     </string-array>
+    <string name="fragment_text">This is a fragment text</string>
 </resources>

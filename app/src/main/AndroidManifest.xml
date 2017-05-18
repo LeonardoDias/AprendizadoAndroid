@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntentStartActivity.CharacterActivity" android:parentActivityName=".IntentStartActivity.MainActivity" />
+        <activity
+            android:name=".IntentStartActivity.CharacterActivity"
+            android:parentActivityName=".IntentStartActivity.MainActivity" />
+        <activity android:name="br.diasapp.apublic.testaprendizado.Fragment.FragmentActivity"></activity>
     </application>
 
 </manifest>
